@@ -1,5 +1,10 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import MoreNFTs from "../compoents/moreNfts";
 
 export const Home = () => {
-  return <Link to="/artist">Home</Link>;
+  return (
+    <>
+      <MoreNFTs/>
+    </>
+  )
 };
