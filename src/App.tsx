@@ -4,7 +4,6 @@ import { Home } from "./pages/home";
 import { Artist } from "./pages/artist";
 import { Nft } from "./pages/nft";
 
-
 function App() {
   return (
     <Routes>
