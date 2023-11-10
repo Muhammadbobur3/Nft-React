@@ -52,11 +52,11 @@ export const MoreNFTs = () => {
     return (
         <>
             <main>
-                <div className="container mx-auto 2xl:px-[195px] 2xl:py-20 bg-[#2b2b2b] text-white font-sans">
+                <div className="container mx-auto px-[195px] py-20 bg-[#2b2b2b] text-white font-sans">
                     <div className="flex items-end justify-between">
                         <div>
-                            <h2 className="2xl:text-[38px] font-semibold 2xl:leading-[120%]">Discover More NFTs</h2>
-                            <p className="2xl:pt-[10px] 2xl:text-[22px] 2xl:leading-[160%]">Explore New Trending NFTs</p>
+                            <h2 className="text-[38px] font-semibold leading-[120%]">Discover More NFTs</h2>
+                            <p className="pt-[10px] text-[22px] leading-[160%]">Explore New Trending NFTs</p>
                         </div>
 
                         {/* Button NFT pagegamas, Marketplace digan PAgega otvorishi kere */}
@@ -82,11 +82,11 @@ export const MoreNFTs = () => {
                                     </div>
                                     <div className="pt-[27px] font-mono flex items-center justify-between">
                                         <div>
-                                            <p className="text-[#858584] 2xl:text-xs">Price</p>
+                                            <p className="text-[#858584] text-xs">Price</p>
                                             <p className="leading-[22px] pt-2">{element.price} ETH</p>
                                         </div>
                                         <div className="text-end">
-                                            <p className="text-[#858584] 2xl:text-xs">Highest Bid</p>
+                                            <p className="text-[#858584] text-xs">Highest Bid</p>
                                             <p className="leading-[22px] pt-2">{element.highest_bid} wETH</p>
                                         </div>
                                     </div>
