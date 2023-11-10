@@ -4,14 +4,15 @@ import { Home } from "./pages/home";
 import { Artist } from "./pages/artist";
 import { Nft } from "./pages/nft";
 
-
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/artist" element={<Artist />} />
-      <Route path="/nft" element={<Nft />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/artist" element={<Artist />} />
+        <Route path="/nft" element={<Nft />} />
+      </Routes>
+    </>
   );
 }
 
