@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
+import MainCard from "../components/main-card";
 
 export const Home = () => {
-  return <Link to="/artist">Home</Link>;
+  return <MainCard />;
 };
