@@ -48,7 +48,7 @@ export const MoreNFTs = () => {
   return (
     <>
       <main>
-        <div className="container mx-auto px-[195px] py-20 bg-[#2b2b2b] text-white font-sans">
+        <div className="container mx-auto px-[195px] py-20  text-white font-sans">
           <div className="flex items-end justify-between">
             <div>
               <h2 className="text-[38px] font-semibold leading-[120%]">
